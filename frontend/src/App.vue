@@ -62,6 +62,8 @@ const handleDown = (e) => {
   focusSearchBar()
 }
 onMounted(() => {
+  focusSearchBar()
+
   window.addEventListener('keydown', (e) => {
     handleEsc(e)
     handleUp(e)
